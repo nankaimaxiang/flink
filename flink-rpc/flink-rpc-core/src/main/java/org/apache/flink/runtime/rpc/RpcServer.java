@@ -28,5 +28,10 @@ public interface RpcServer extends StartStoppable, MainThreadExecutable, RpcGate
      *
      * @return Future indicating when the rpc endpoint has been terminated
      */
+
+    /**
+     * maxiang
+     * @return
+     */
     CompletableFuture<Void> getTerminationFuture();
 }
